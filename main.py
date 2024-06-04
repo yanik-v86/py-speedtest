@@ -8,7 +8,7 @@ from colorama import Fore, Style
 
 # Сохранение в файл
 def save_to_csv(data):
-    with open('speedtest_results.csv', mode='a', newline='') as file:
+    with open('results.csv', mode='a', newline='') as file:
         writer = csv.writer(file, delimiter=';', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         writer.writerow(data)
 
