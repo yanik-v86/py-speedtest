@@ -64,7 +64,7 @@ def check_speed():
     # Сохранмть результат
     save_to_csv([formatted_date_time, formatted_date_time2, f"{download_speed:.2f} Мбит/с", f"{upload_speed:.2f} Мбит/с", f"{ping} мс"])
 
-
+#main
 if __name__ =="__main__":
     while True:
         check_speed()
